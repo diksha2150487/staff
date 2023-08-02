@@ -171,3 +171,203 @@
   max-width: 500px;
   height: 530px;
 }
+/* *********************************************** */
+.cont-process {
+  background-color: #ffffff;
+  padding: 6rem;
+  text-align: center;
+}
+.plogy {
+  font-size: 40px;
+  text-align: center;
+  color: #101010;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.onerow {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 30px;
+}
+.secondrow {
+  margin: 5px;
+}
+.need {
+  position: absolute;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+.bord {
+  position: absolute;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 70px;
+  padding-top: 4px;
+}
+#dolt {
+  top: 90px;
+  left: 85px;
+}
+#liam {
+  top: 90px;
+  left: 110px;
+}
+#toll {
+  top: 110px;
+  left: 100px;
+}
+#walt {
+  top: 110px;
+  left: 110px;
+}
+#hell {
+  top: 90px;
+  left: 120px;
+}
+#mist {
+  top: 90px;
+  left: 100px;
+}
+#volo {
+  top: 115px;
+  left: 60px;
+}
+#faq-lo {
+  top: 115px;
+  left: 100px;
+}
+
+#boximg {
+  position: relative;
+}
+#lia {
+  position: relative;
+}
+#flok {
+  position: relative;
+}
+#kylo {
+  position: relative;
+}
+#joo {
+  max-width: 280px;
+}
+#rob {
+  max-width: 280px;
+}
+#eko {
+  max-width: 280px;
+}
+#funny {
+  max-width: 280px;
+}
+/* ****************************************** */
+.container-c {
+  background-color: #f2f2f2;
+  padding: 6rem;
+  text-align: center;
+}
+/* .left-row {
+  width: 50%;
+} */
+
+.left-row h1 {
+  font-size: 30px;
+}
+
+.left-row h4 {
+  font-size: 13px;
+  color: #666b6b;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.inp-2 {
+  width: 32rem;
+}
+
+.inp-3 {
+  padding-bottom: 50px;
+  width: 32rem;
+}
+
+.submit-btn {
+  background-color: #3c83cb;
+  padding: 15px;
+  color: #fff;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 12px;
+  width: 180px;
+  margin-top: 30px;
+}
+
+#submit-right {
+  margin-left: 3px;
+  font-size: 12px;
+}
+
+.lo {
+  padding: 40px;
+}
+
+.tab {
+  display: flex;
+}
+
+.ad {
+  margin-right: 40px;
+  color: #1c6bff;
+  border-bottom: 2px solid #1c6bff;
+}
+
+.ma {
+  color: #1c6bff;
+}
+
+.divide {
+  border-top: 1px solid #ccc;
+  padding-right: 400px;
+}
+
+#loc1 {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 30px;
+  color: #1c6bff;
+}
+
+.loc {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.content h6 {
+  font-size: 15px;
+}
+
+.content p {
+  font-size: 12px;
+}
