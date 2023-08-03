@@ -2,19 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import img1 from "./image/Layer 0 (1).png";
 import img2 from "./image/Mask group (1).png";
-import img3 from "./image/Layer 1 (1).png";
-import img4 from "./image/Group 71929 (1).png";
-import img5 from "./image/Layer 1 6 (1).png";
-import img6 from "./image/protrucks 1 (1).png";
 import img7 from "./image/Layer 1 (1).png";
 import img8 from "./image/Group 71929 (1).png";
 import img9 from "./image/Layer 1 6 (1).png";
 import img10 from "./image/protrucks 1 (1).png";
-import img11 from "./image/Rectangle 18297 (2).png";
 import img12 from "./image/Rectangle 18298.png";
 import img13 from "./image/Group 1000007475.png";
 import img14 from "./image/Group 1000007474.png";
 import img15 from "./image/Group 1000007473.png";
+import img16 from "./image/Group 1000007395.jpg";
 function App() {
   return (
     <div>
@@ -50,13 +46,32 @@ function App() {
             <p className="in-house">
               Want to boost your in-house development team? See how we can help.
             </p>
-            <button className="bord">
-              <p className="call">Schedule a Call</p>
-            </button>
+            <button className="bord">Schedule a Call</button>
           </div>
         </div>
       </div>
       {/* ****************************************************** */}
+      <div className="teach-team">
+        <p className="glory">Why augment your tech teams with us?</p>
+        <p className="strick">
+          Using a staff augmentation approach is great when you need an extra
+          boost to your development, either in a single team or across multiple
+          teams. We integrate into existing rituals with ease.
+        </p>
+        <p className="allo">Staff Augmentation</p>
+        {/* <p className="villa">Dedicated Software </p>
+        <p className="holp">Development Teams</p>
+        <p className="xu">Dedicated Software Development Teams</p> */}
+      </div>
+      <div className="bbbc">
+        <div className="local-img">
+          <img src={img16}></img>
+          <p className="status">Let's discuss how your setup should look.</p>
+          <button className="apple">Schedule a Call</button>
+        </div>
+      </div>
+
+      {/* *********************************************************************** */}
       <div className="our-hightlight">
         <div className="safolo-left">
           <p className="seamless">Our process. Simple, seamless, streamlined</p>
@@ -72,7 +87,6 @@ function App() {
             <hr className="dotted" />
             <hr id="short" />
           </div>
-
           <div className="step-part">
             <div className="discover-main">
               <p className="ylo">STEP 1</p>
@@ -100,11 +114,11 @@ function App() {
                 as needed.
               </p>
             </div>
-
             <button className="scale">Schedule a Call</button>
           </div>
         </div>
       </div>
+      {/* ***************************************************************************** */}
     </div>
   );
 }
