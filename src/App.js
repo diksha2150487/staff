@@ -1,193 +1,107 @@
 import logo from "./logo.svg";
 import "./App.css";
-import img1 from "./image/Group (8).png";
-import img2 from "./image/Frame.png";
-import img3 from "./image/Frame (1).png";
-import img4 from "./image/Vector (16).png";
-import img5 from "./image/check 1.png";
-import img6 from "./image/Group 72887.png";
-import img7 from "./image/Group 71310.png";
-import img8 from "./image/Group 71314.png";
-import img9 from "./image/Group 71318.png";
-import img10 from "./image/Group 71321.png";
-
-import { AiOutlineArrowRight } from "react-icons/ai";
+import img1 from "./image/Layer 0 (1).png";
+import img2 from "./image/Mask group (1).png";
+import img3 from "./image/Layer 1 (1).png";
+import img4 from "./image/Group 71929 (1).png";
+import img5 from "./image/Layer 1 6 (1).png";
+import img6 from "./image/protrucks 1 (1).png";
+import img7 from "./image/Layer 1 (1).png";
+import img8 from "./image/Group 71929 (1).png";
+import img9 from "./image/Layer 1 6 (1).png";
+import img10 from "./image/protrucks 1 (1).png";
+import img11 from "./image/Rectangle 18297 (2).png";
+import img12 from "./image/Rectangle 18298.png";
+import img13 from "./image/Group 1000007475.png";
+import img14 from "./image/Group 1000007474.png";
+import img15 from "./image/Group 1000007473.png";
 function App() {
   return (
     <div>
       <div className="staff-paper">
         <div className="local-left">
-          <p className="staff">STAFF </p>
-          <p className="beery">AUGMENTATION</p>
           <p className="velly">
-            Expect the best technology and UI/UX design resources on demand from
-            us.
+            Our experts have been working alongside in-house teams for over a
+            decade.
           </p>
         </div>
         <div className="local-right">
-          {/* <img src={img1} alt="img" className="three-circle" /> */}
+          <div className="dove-bb">
+            <img src={img1} className="jorry" alt="logo"></img>
+            <hr className="dark-line" />
+            <img src={img2} className="kick" alt="logo"></img>
+          </div>
+          <div className="Dment">
+            <img src={img7} className="guns" alt=""></img>
+            <hr className="dark-line" />
+            <img src={img8} className="nijia" alt=""></img>
+          </div>
+          <div className="trunks">
+            <img src={img9} className="rely" alt=""></img>
+            <hr className="dark-line" />
+            <img src={img10} className="pro" alt=""></img>
+          </div>
         </div>
       </div>
       {/* *************************************************** */}
-      <div className="white-main-goo">
-        <p className="cabe">CAPABILITIES</p>
-        <div className="fourth-main-line">
-          <div className="one-hole">
-            <div className="same">
-              <p className="product">Digital Product </p>
-              <img src={img1}></img>
-            </div>
-            <p className="kity">Engineering</p>
-            <p className="API">UI/UX | Frontend | API | Web | Mobile | Dev</p>
-          </div>
-          <div className="one-hole" id="narrow">
-            <div className="same">
-              <p className="product">Digital </p>
-              <img src={img2}></img>
-            </div>
-            <p className="kity">Transformation</p>
-            <p className="API" id="cogy">
-              SEO | SEM | Creative & Design Media | Email & Marketing Automation
+      <div className="group-main">
+        <div className="looft">
+          <div className="contact">
+            <p className="in-house">
+              Want to boost your in-house development team? See how we can help.
             </p>
-          </div>
-          <div className="one-hole">
-            <div className="same">
-              <p className="product">Quality</p>
-              <img src={img3}></img>
-            </div>
-            <p className="kity"> Engineering</p>
-            <p className="API">UI/UX | Frontend | API | Web | Mobile | Dev</p>
-          </div>
-          <div className="one-hole">
-            <div className="same">
-              <p className="product">E-Commerce</p>
-              <img src={img4}></img>
-            </div>
-            <p className="API">UI/UX | Frontend | API | Web | Mobile | Dev</p>
+            <button className="bord">
+              <p className="call">Schedule a Call</p>
+            </button>
           </div>
         </div>
       </div>
       {/* ****************************************************** */}
-      <div class="container8">
-        <div class="leftcontainer8">
-          <h3>BENEFITS </h3>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>Industry-leading junior, mid-level, and senior talent</h5>
-          </div>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>Motivated, productive, and talented resources</h5>
-          </div>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>Availability, reliability, and quality guaranteed</h5>
-          </div>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>
-              Team members fully versed in using the Agile Scrum methodology
-            </h5>
-          </div>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>Paying only for what you need</h5>
-          </div>
-          <div class="uptime">
-            <img src={img5} />
-            <h5>Better control over existing staff</h5>
-          </div>
-          <button class="call1">
-            Request A Call
-            <AiOutlineArrowRight id="line-arrow" />
-          </button>
+      <div className="our-hightlight">
+        <div className="safolo-left">
+          <p className="seamless">Our process. Simple, seamless, streamlined</p>
+          <img src={img12} id="group-men"></img>
         </div>
-        <div class="rightcontainer8">
-          <img src={img6} />
-        </div>
-      </div>
-      {/* *************************************************** */}
-      <div class="cont-process">
-        <p className="plogy">THE PROCESS</p>
-        <div class="onerow">
-          <div className="secondrow" id="boximg">
-            <p className="need" id="dolt">
-              Determining
-            </p>
-            <p className="bord" id="liam">
-              Need
-            </p>
-            <img src={img7} id="joo" />
+        <div className="safolo-right">
+          <div className="circle-part">
+            <img src={img13} className="phone-box"></img>
+            <hr className="dotted" />
+            <img src={img14} className="phone-box"></img>
+            <hr className="dotted" />
+            <img src={img15} className="phone-box"></img>
+            <hr className="dotted" />
+            <hr id="short" />
           </div>
-          <div class="secondrow" id="lia">
-            <p className="need" id="toll">
-              Sourcing{" "}
-            </p>
-            <p className="bord" id="walt">
-              Talent
-            </p>
-            <img src={img8} id="rob" />
-          </div>
-          <div class="secondrow" id="flok">
-            <p className="need" id="hell">
-              On{" "}
-            </p>
-            <p className="bord" id="mist">
-              Boarding
-            </p>
-            <img src={img9} id="eko" />
-          </div>
-          <div class="secondrow" id="kylo">
-            <p className="need" id="volo">
-              Get Your Projects
-            </p>
-            <p className="bord" id="faq-lo">
-              {" "}
-              Delivered
-            </p>
-            <img src={img10} id="funny" />
-          </div>
-        </div>
-      </div>
-      {/* ******************************************************** */}
-      <div className="container-c">
-        <div class="left-row">
-          <h1>Contact Us</h1>
-          <h4>Please complete the below form. we will get in touch with you</h4>
-          <div class="input-container">
-            <div class="styled-input wide">
-              <input class="inp" type="text" placeholder="Name*" required />
-              <input
-                class="inp"
-                type="text"
-                placeholder="Phone number*"
-                required
-              />
+
+          <div className="step-part">
+            <div className="discover-main">
+              <p className="ylo">STEP 1</p>
+              <p className="tile">Complete a discovery call.</p>
+              <p className="toggle">
+                Tell us more about your business on a discovery call. We’ll
+                discuss your project requirements, success criteria, timescale,
+                budget and required skill sets to see if we can help.
+              </p>
             </div>
-            <div class="styled-input wide">
-              <input
-                class="inp-1"
-                type="email"
-                placeholder="Email Address*"
-                required
-              />
-              <input
-                class="inp-1"
-                type="text"
-                placeholder="Location*"
-                required
-              />
+            <div className="doveloper-main">
+              <p className="ylo">STEP 2</p>
+              <p className="tile">Get the developers you need.</p>
+              <p className="toggle">
+                In just days, we’ll hand-select experts based on your needs and
+                required expertise.
+              </p>
             </div>
-            <div class="styled-input wide">
-              <input class="inp-2" required placeholder="Business Name"></input>
+            <div className="onbord-main">
+              <p className="ylo">STEP 3</p>
+              <p className="tile">Onboard and scale as required.</p>
+              <p className="toggle">
+                Our team joins yours, and hits the ground running. Onboard your
+                new team members, manage performance, and scale your headcount
+                as needed.
+              </p>
             </div>
-            <div class="styled-input wide">
-              <input class="inp-3" required placeholder="Message"></input>
-            </div>
-          </div>
-          <br />
-          <div id="form-btn" class="btn-lrg submit-btn">
-            Submit <i class="fa-solid fa-arrow-right" id="submit-right"></i>
+
+            <button className="scale">Schedule a Call</button>
           </div>
         </div>
       </div>
