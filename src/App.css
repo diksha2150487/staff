@@ -211,16 +211,16 @@
 }
 .safolo-left {
   width: 50%;
-  padding: 0rem 0rem 0rem 7rem;
+  padding: 0rem 0rem 0rem 8rem;
   /* background-color: aqua; */
 }
 .seamless {
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 38px;
   text-align: left;
-  max-width: 50%;
+  max-width: 60%;
   color: #33475b;
 }
 .phone-box {
@@ -228,27 +228,34 @@
   height: 40px;
 }
 #group-men {
-  width: 500px;
-  height: 450px;
+  width: 450px;
+  height: 420px;
   margin-top: 30px;
 }
 .safolo-right {
   width: 50%;
   display: flex;
 }
+.circle-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .dotted {
   border: 1.2px dotted #33475b;
-  height: 145px;
+  height: 141px;
   width: 1px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .step-part {
-  width: 60%;
-  margin-left: 10%;
+  /* width: 60%; */
+  /* margin-left: 10%; */
+  /* padding-right: 1rem; */
 }
 .ylo {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 40px;
   letter-spacing: 0em;
@@ -266,32 +273,54 @@
 .toggle {
   color: #33475b;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 200;
   line-height: 25px;
   text-align: left;
   padding-top: 15px;
 }
-
+.discover-main {
+  margin-left: 3rem;
+  padding-right: 8rem;
+  /* margin-top: 1rem; */
+}
 .doveloper-main {
+  margin-left: 3rem;
+  padding-right: 8rem;
   margin-top: 1rem;
 }
 .onbord-main {
   margin-top: 2.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-right: 8rem;
+}
+.line_btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 2rem;
 }
 .scale {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   padding: 20px 60px 20px 60px;
   background-color: #1265ff;
   color: white;
   border: none;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 #short {
-  width: 300px;
+  width: 40px;
   height: 1px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  border: 1.2px dotted #33475b;
+}
+#horn {
+  width: 20px;
+  height: 1px;
+  margin-left: 20px;
+  border: 1.2px dotted #33475b;
 }
 /* ************************************************ */

@@ -90,6 +90,7 @@ function App() {
             <hr className="dotted" />
             <img src={img15} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
+            <hr id="horn" />
           </div>
           <div className="step-part">
             <div className="discover-main">
@@ -118,8 +119,10 @@ function App() {
                 as needed.
               </p>
             </div>
-            <hr id="short" />
-            <button className="scale">Schedule a Call</button>
+            <div className="line_btn">
+              <hr id="short" />
+              <button className="scale">Schedule a Call</button>
+            </div>
           </div>
         </div>
       </div>
