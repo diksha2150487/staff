@@ -58,14 +58,19 @@ function App() {
           boost to your development, either in a single team or across multiple
           teams. We integrate into existing rituals with ease.
         </p>
-        <p className="allo">Staff Augmentation</p>
-        {/* <p className="villa">Dedicated Software </p>
-        <p className="holp">Development Teams</p>
-        <p className="xu">Dedicated Software Development Teams</p> */}
       </div>
       <div className="bbbc">
         <div className="local-img">
-          <img src={img16}></img>
+          <div className="p-allo">
+            <p className="allo">Staff Augmentation</p>
+            <p className="allo">
+              Dedicated Software <br /> Development Teams
+            </p>
+            <p className="allo">
+              Dedicated Software <br /> Development Teams
+            </p>
+          </div>
+          <img src={img16} alt=""></img>
           <p className="status">Let's discuss how your setup should look.</p>
           <button className="apple">Schedule a Call</button>
         </div>
@@ -75,15 +80,15 @@ function App() {
       <div className="our-hightlight">
         <div className="safolo-left">
           <p className="seamless">Our process. Simple, seamless, streamlined</p>
-          <img src={img12} id="group-men"></img>
+          <img src={img12} id="group-men" alt="logo"></img>
         </div>
         <div className="safolo-right">
           <div className="circle-part">
-            <img src={img13} className="phone-box"></img>
+            <img src={img13} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <img src={img14} className="phone-box"></img>
+            <img src={img14} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <img src={img15} className="phone-box"></img>
+            <img src={img15} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
             <hr id="short" />
           </div>
