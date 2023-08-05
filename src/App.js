@@ -1,16 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 import img1 from "./image/Layer 0 (1).png";
-import img2 from "./image/Mask group (1).png";
-import img7 from "./image/Layer 1 (1).png";
-import img8 from "./image/Group 71929 (1).png";
-import img9 from "./image/Layer 1 6 (1).png";
-import img10 from "./image/protrucks 1 (1).png";
-import img12 from "./image/Rectangle 18298.png";
-import img13 from "./image/Group 1000007475.png";
-import img14 from "./image/Group 1000007474.png";
-import img15 from "./image/Group 1000007473.png";
-import img16 from "./image/Group 1000007395.jpg";
+import img2 from "./image/Kick-z.png";
+import img3 from "./image/gun.png";
+import img4 from "./image/ninija.png";
+import img5 from "./image/rely.png";
+import img6 from "./image/protrucks 1 (1).png";
+import img7 from "./image/table-img.jpg";
+import img8 from "./image/Book.png";
+import img9 from "./image/phone.png";
+import img10 from "./image/short-women.png";
+import img11 from "./image/arrow.png";
+
 function App() {
   return (
     <div>
@@ -28,14 +29,14 @@ function App() {
             <img src={img2} className="kick" alt="logo"></img>
           </div>
           <div className="Dment">
-            <img src={img7} className="guns" alt=""></img>
+            <img src={img3} className="guns" alt=""></img>
             <hr className="dark-line" />
-            <img src={img8} className="nijia" alt=""></img>
+            <img src={img4} className="nijia" alt=""></img>
           </div>
           <div className="trunks">
-            <img src={img9} className="rely" alt=""></img>
+            <img src={img5} className="rely" alt=""></img>
             <hr className="dark-line" />
-            <img src={img10} className="pro" alt=""></img>
+            <img src={img6} className="pro" alt=""></img>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ function App() {
               Dedicated Software <br /> Development Teams
             </p>
           </div>
-          <img src={img16} alt=""></img>
+          <img src={img7} alt=""></img>
           <p className="status">Let's discuss how your setup should look.</p>
           <button className="apple">Schedule a Call</button>
         </div>
@@ -80,15 +81,15 @@ function App() {
       <div className="our-hightlight">
         <div className="safolo-left">
           <p className="seamless">Our process. Simple, seamless, streamlined</p>
-          <img src={img12} id="group-men" alt="logo"></img>
+          <img src={img8} id="group-men" alt="logo"></img>
         </div>
         <div className="safolo-right">
           <div className="circle-part">
-            <img src={img13} className="phone-box" alt="logo"></img>
+            <img src={img9} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <img src={img14} className="phone-box" alt="logo"></img>
+            <img src={img10} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <img src={img15} className="phone-box" alt="logo"></img>
+            <img src={img11} className="phone-box" alt="logo"></img>
             <hr className="dotted" />
             <hr id="horn" />
           </div>

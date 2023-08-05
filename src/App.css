@@ -99,7 +99,7 @@
 }
 .looft {
   width: 100%;
-  background-image: url("./image/Rectangle\ 18297\ \(2\).png");
+  background-image: url("./image/single-men.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,7 +129,7 @@
 /* *************************************** */
 .teach-team {
   align-items: center;
-  background-image: url("./image/Group\ 1000007384.jpg");
+  background-image: url("./image/All-men.jpg");
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@
   align-items: center;
 }
 .dotted {
-  border: 1.2px dotted #33475b;
+  border: 1.1px dotted #33475b;
   height: 141px;
   width: 1px;
   /* margin-left: 20px; */
